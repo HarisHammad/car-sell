@@ -899,6 +899,7 @@ color: white;
 .mainheadline{
     width: 80%;
     text-align: center;
+    left: 10%;
 }
 .headline{
  font-size: 1.8rem;
