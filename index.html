@@ -57,19 +57,20 @@
             </li>
             
             <ul class="mobileDropdownMenu">
-              <li class="closeBtn"><i class="fa-solid fa-xmark"></i></li>
-              <li style="margin-top: -730px;">Home</li>
-              <li style=" margin-top: -750px;" class="dropdown-toggle">
+              <li   class="closeBtn"><i class="fa-solid fa-xmark"></i></li>
+              <li style=" background-color: #EDEDED; padding: 10px; border-radius: 10px;">Home</li>
+              <li style="  background-color: #F9F9F9; padding: 10px;" class="dropdown-toggle">
                 Vehicle purchase 
                 <i class="fa-solid fa-caret-down" style="margin-left: 5px;"></i>
-                <ul style="margin-right: -10px; margin-top: 20px;" class="dropdown-menu">
-                  <li>Used car purchase</li>
-                  <li>Engine damage purchase</li>
-                  <li>Accident car purchase</li>
-                  <li>Total loss purchase</li>
-                  <li>Gearbox damage purchase</li>
+                <ul style="margin-right: -0px; margin-top: 10px; padding: -10px;" class="dropdown-menu">
+                  <li style="font-size: 0.9rem;">Used car purchase</li>
+                  <li style="font-size: 0.9rem;">Engine damage purchase</li>
+                  <li style="font-size: 0.9rem;">Accident car purchase</li>
+                  <li style="font-size: 0.9rem;">Total loss purchase</li>
+                  <li style="font-size: 0.9rem;">Gearbox damage purchase</li>
                 </ul>
               </li>
+              <li class="contact1" >Contact</li>
             </ul>
             
             
@@ -387,46 +388,55 @@
         <button style="width: 200px; margin-top: 20px;"  class="Thirdbtn"></i> Get My Free Quote</button>
       </div>
 
-      <h1 style="margin-top: 50px; text-align: center;" class="buyh1">Frequently Asked Questions</h1>
-      <div class="quastioncontainer">
-        <div class="summary">
-        <details>
-          <summary style="font-family: lexend,sans-serif; font-weight: 600; font-size: 0.8rem;">What types of cars do you buy?</summary>
-          <p style="margin-top: 15px;" class="cardpara">We buy all vehicles running or not, damaged, accident, or scrap.</p>
-        </details>
-      </div>
-        <div class="summary">
-        <details>
-          <summary style="font-family: lexend,sans-serif; font-weight: 600; font-size: 0.8rem;">What types of vehicles do you buy?</summary>
-          <p style="margin-top: 15px;" class="cardpara">No, we offer free pickup. Our team will come to your location, inspect the car, and complete the transaction.</p>
-        </details>
-      </div>
-        <div class="summary">
-        <details>
-          <summary style="font-family: lexend,sans-serif; font-weight: 600; font-size: 0.8rem;">What types of vehicles do you buy?</summary>
-          <p style="margin-top: 15px;" class="cardpara">We buy all vehicles running or not, damaged, accident, or scrap.</p>
-        </details>
-      </div>
-        <div style="background-color: rgb(233, 233, 232);"  class="summary">
-        <details>
-          <summary style="font-family: lexend,sans-serif; font-weight: 600; font-size: 0.8rem;">How long does the selling process take?</summary>
-          <p style="margin-top: 15px;" class="cardpara">We buy all vehicles running or not, damaged, accident, or scrap.</p>
-        </details>
-      </div>
-        <div style="background-color: rgb(233, 233, 232);"  class="summary">
-        <details>
-          <summary  style="font-family: lexend,sans-serif; font-weight: 600; font-size: 0.8rem;">What documents do I need to sell my car?</summary>
-          <p style="margin-top: 15px;" class="cardpara">We buy all vehicles running or not, damaged, accident, or scrap.</p>
-        </details>
-      </div>
-        <div style="background-color: rgb(233, 233, 232);" class="summary">
-        <details>
-          <summary style="font-family: lexend,sans-serif; font-weight: 600; font-size: 0.8rem;">What documents do I need to sell my car?</summary>
-          <p style="margin-top: 15px;" class="cardpara">We buy all vehicles running or not, damaged, accident, or scrap.</p>
-        </details>
-      </div>
-      <button style="width: 200px; margin-top: 20px;"  class="Thirdbtn"></i>Sell My Car Now</button>
-      </div>
+
+      <section class="faq-section">
+              <h1 style="margin-top: 50px; text-align: center;" class="buyh1">Frequently Asked Questions</h1>
+      
+        <div style="display: flex; flex-wrap: wrap;" class="faq-container">
+      
+          <div class="faq-card" onclick="toggleAnswer(this)">
+            <h3>What types of cars do you buy?</h3>
+            <p class="faq-answer">We buy all vehicles – running or not, damaged, accident, or scrap.</p>
+            <span class="faq-icon">+</span>
+          </div>
+      
+          <div class="faq-card" onclick="toggleAnswer(this)">
+            <h3>What types of vehicles do you buy?</h3>
+            <p class="faq-answer">We buy all vehicles, running or not—cars, vans, trucks, and SUVs.</p>
+            <span class="faq-icon">+</span>
+          </div>
+      
+          <div class="faq-card" onclick="toggleAnswer(this)">
+            <h3>How long does the selling process take?</h3>
+            <p class="faq-answer">Usually 24 to 48 hours from quote to pickup and payment.</p>
+            <span class="faq-icon">+</span>
+          </div>
+      
+          <div class="faq-card" onclick="toggleAnswer(this)">
+            <h3>What documents do I need to sell my car?</h3>
+            <p class="faq-answer">Just the car title and a valid ID. We'll guide you through it!</p>
+            <span class="faq-icon">+</span>
+          </div>
+      
+          <div class="faq-card" onclick="toggleAnswer(this)">
+            <h3>When and how will I receive my payment?</h3>
+            <p class="faq-answer">You’ll be paid on the spot — cash or bank transfer.</p>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-card" onclick="toggleAnswer(this)">
+            <h3>When and how will I receive my payment?</h3>
+            <p class="faq-answer">You’ll be paid on the spot — cash or bank transfer.</p>
+            <span class="faq-icon">+</span>
+          </div>
+      
+        </div>
+      
+        <div class="faq-button-wrapper">
+          <button style="width: 200px; margin-top: 20px;"  class="Thirdbtn"></i>Sell My Car Now</button>
+        </div>
+       
+      </section>
+      
 
 
 
@@ -537,6 +547,10 @@
     
       
   <details></details>
+
+  
+  
+  
 
      
 
