@@ -38,7 +38,7 @@ nav{
     height: 40px;
     padding: 5px;
     border-radius: 30px;
-    background-color: rgb(241, 84, 27);
+    background-color: #FF6600;
     border: none;
     color: white;
     margin-left: 7%;
@@ -97,7 +97,7 @@ color: white;
     width: 180px;
   height: 45px;
   padding: 5px;
-    background-color: rgb(245, 74, 12);
+    background-color: #FF6600;
     border-radius: 30px;
     border: none;
     color: white;
@@ -105,7 +105,7 @@ color: white;
 .lastrequstbox {
   width: 150px;
   height: 100px;
-  background-color: rgba(210, 165, 0, 0.3); 
+  background-color: #FF660029;
   border-radius: 20px;
   display: flex;
   color: white;
@@ -310,7 +310,7 @@ margin-top: 3%;
     height: 40px;
     padding: 5px;
     border-radius: 30px;
-    background-color: rgb(241, 84, 27);
+    background-color: #FF6600;
     border: none;
     color: white;
 }
@@ -329,7 +329,7 @@ margin-top: 3%;
   overflow: hidden !important;
   width: 330px;
   height: 190px;
-  background-color: rgb(247, 245, 242);
+  background-color: #F5F5F5;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
@@ -345,7 +345,7 @@ margin-top: 3%;
   border-radius: 50px;
   font-size: 1.8rem;
   color: white;
-  background-color: rgb(241, 84, 27);
+  background-color: #FF6600;
 }
 .circle i{
   margin-left: 15px;
@@ -369,6 +369,7 @@ margin-top: 3%;
   margin-top: 60px;
   text-align: center;
   padding: 10px;
+  padding-bottom: 50px;
 }
 
 .workcontainer2{
@@ -386,7 +387,8 @@ font-size: 5rem;
 
 .buycontainer{
   width: 100%;
-  background-color: rgb(247, 226, 239);
+  background-color: #FFF1E8;
+  padding: 7px;
   display: flex;
   justify-content: center;
 
@@ -445,6 +447,7 @@ font-size: 1.9rem;
   flex-direction: column;
   justify-content: center;
   position: relative;
+  padding: 10px;
 }
 
 .carbox {
@@ -464,8 +467,9 @@ font-size: 1.9rem;
 .carcard {
   width: 330px;
   height: 300px;
-  background-color: rgb(226, 225, 223);
-  box-shadow: 2px 4px 6px rgba(0, 0, 1, 0.5);
+  background-color: #F3F3F3;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25),   
+              2px 2px 4px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   flex: none;
   margin-bottom: 10px;
@@ -535,7 +539,7 @@ flex-wrap: wrap;
   height: 40px;
   padding: 5px;
   border-radius: 30px;
-  background-color: rgb(241, 84, 27);
+  background-color: #FF6600;
   border: none;
   color: white;
 }
@@ -545,7 +549,7 @@ flex-wrap: wrap;
   height: 40px;
   padding: 5px;
   border-radius: 30px;
-  background-color: rgb(241, 84, 27);
+  background-color: #FF6600;
   border: none;
   color: white;
 }
@@ -558,6 +562,7 @@ flex-wrap: wrap;
   margin-top: 70px;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .personalinfo2 {
@@ -582,6 +587,7 @@ justify-content: center;
 margin-top: 50px;
 /* padding: 30px; */
 /* flex-wrap: wrap; */
+
 }
 
 #customercontainer2{
@@ -642,7 +648,7 @@ padding: 10px 0px 10px 30px;
 
 .sellcontainer{
   width: 100%;
-  background-color: #f1dccf;
+  background-color:#FFF1E8;
   text-align: center;
   margin-top: 25px;
   padding: 30px;
@@ -667,7 +673,7 @@ background-color:  rgb(248, 228, 220);
 
 
 .quicklycontainer{
-background-color:rgb(241, 211, 199);
+background-color:#FFF1E8;
 width: 100%;
 display: flex;
 justify-content: center;
@@ -685,7 +691,7 @@ padding-top: 80px;
 
 .choosecontainer{
 width: 90%;
-background-color: rgb(231, 236, 236);
+background-color:#F5F5F5;
 margin-top: 20px;
 padding: 10px;
 border-radius: 10px;
@@ -866,7 +872,7 @@ color:#000000;
   color: white;
   font-weight: bold;
   transition: 0.3s;
-  background-color: orangered;
+  background-color: #FF6600;
   width: 15px;
   height: 15px;
   border-radius: 50px;
@@ -913,6 +919,7 @@ color:#000000;
      }
      .personalinfo{
       width: 70%;
+      padding: 20px;
 
      }
      .whybox{
@@ -967,6 +974,7 @@ color:#000000;
   display: unset;
   display: flex;
 }
+
 
 
 
@@ -1071,6 +1079,7 @@ color:#000000;
   
   .quaklypara{
     width: 90%;
+    padding: 20px 7px;
   }
   .buyh1second{
     font-size: 1rem;
@@ -1132,6 +1141,9 @@ width: 100%;
 .faq-card h3{
   font-size: 0.8rem;
 }
+.firstbtn{
+  width: 165px;
+height: 38px;}
   
   
   
