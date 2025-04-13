@@ -572,6 +572,7 @@ flex-wrap: wrap;
   display: flex;
   overflow: scroll;
   scrollbar-width: none;
+  padding: 50px;
 }
 
 .customercontainer{
@@ -579,9 +580,16 @@ width: 100%;
 display: flex;
 justify-content: center;
 margin-top: 50px;
-padding: 30px;
+/* padding: 30px; */
 /* flex-wrap: wrap; */
 }
+
+#customercontainer2{
+  margin-left: 200px;
+}
+
+
+
 
 .customerimg{
 width: 550px;
@@ -593,7 +601,7 @@ border-radius: 20px;
 
 .customername{
 width: 800px;
-padding: 30px;
+padding: 10px 0px 10px 30px;
 }
 .backbtn2,
 .nextbtn2 {
@@ -614,10 +622,10 @@ padding: 30px;
 
 }
 .backbtn2{
-  right: 220px;
+  right: 90px;
 }
 .nextbtn2{
-  right: 165px;
+  right: 40px;
 }
 .smallbox{
   width: 150px;
@@ -636,7 +644,7 @@ padding: 30px;
   width: 100%;
   background-color: #f1dccf;
   text-align: center;
-  margin-top: -40px;
+  margin-top: 25px;
   padding: 30px;
 }
 
@@ -1028,10 +1036,7 @@ color: white;
   .customername{
     padding: 0px;
   }
-  .customerimg img{
   
-    width: 85%;
-  }
   .quaklypara{
     width: 90%;
   }
@@ -1073,7 +1078,21 @@ color: white;
     display: unset;
     margin-top: 20px;
   }
-
+.main{
+  padding: 25px;
+}
+.customerimg{
+  margin-top: -120px;
+}
+.customerimg img{
+width: 100%;
+}
+.customername{
+  margin-bottom: 30px;
+}
+#customercontainer2{
+  margin-left: 90px;
+}
 
   
   

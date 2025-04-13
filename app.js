@@ -55,13 +55,13 @@ setupMenu();
 
   function scrollSliderLef() {
     const container = document.getElementById("oye");
-    const scrollAmount = container.offsetWidth * 1.3; 
+    const scrollAmount = container.offsetWidth * 1.1; 
     container.scrollBy({ left: -scrollAmount, behavior: "smooth" });
   }
   
   function scrollSliderRigh() {
     const container = document.getElementById("oye");
-    const scrollAmount = container.offsetWidth * 1.2; 
+    const scrollAmount = container.offsetWidth * 1.1; 
     container.scrollBy({ left: scrollAmount, behavior: "smooth" });
   }
   
