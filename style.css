@@ -322,33 +322,44 @@ margin-top: 3%;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  padding: 10px;
 }
 
 .box{
+  overflow: hidden !important;
   width: 330px;
-  height: 180px;
+  height: 190px;
   background-color: rgb(247, 245, 242);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 .circle{
-  width: 60px;
-  border-radius: 5px 0px 25px 0px;
+  position: relative;
+  width: 100px;
+  top: -20px;
+  left: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-radius: 50px;
   font-size: 1.8rem;
   color: white;
-  padding: 10px;
   background-color: rgb(241, 84, 27);
+}
+.circle i{
+  margin-left: 15px;
+  margin-top: 15px;
 }
 .cardh1{
   font-family:"Roboto", sans-serif ;
   font-size: 1.3rem;
-  margin-top: 20px;
-  padding: 7px;
+ padding: 20px 10px 5px 20px;
 }
 
 .cardpara{
   font-family: "Lexend", sans-serif;
-  padding: 0px 7px;
+  padding: 0px 10px 10px 20px;
   font-size: 0.8rem;
   color: rgb(122, 119, 119);
 }
@@ -948,9 +959,9 @@ color: white;
       padding: 10px;
       width: 264px;
     }
-    .dropdown-menu {
-      /* width: 180px; */
-    }
+    /* .dropdown-menu {
+      width: 180px;
+    } */
     .contact1{
       margin-right: 5px;
     }
@@ -958,7 +969,7 @@ color: white;
       width: 90%;
     }
      .maininputs{
-height: 35px;
+      height: 35px;
     }
     .whyline{
       padding: 15px;
@@ -966,10 +977,16 @@ height: 35px;
     .whyh1{
       font-size: 1.4rem;
     }
+    .whybox{
+      padding: 20px;
+    }
 
     .box{
       width: 270px;
       height: 180px;
+    }
+    .cardh1{
+    padding-top: 0px;
     }
     .workcontainer2{
       flex-wrap: wrap;
@@ -1050,7 +1067,7 @@ height: 35px;
     margin-top: 5px;
   }
   .mainheadline{
-    top: 20%;
+    top: 25%;
   }
   .lastrequstbox{
     display: unset;
