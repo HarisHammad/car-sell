@@ -794,6 +794,7 @@ color: white;
   background-size: contain;
   border-radius: 60px;
   border: 4px solid #FF6600;
+  /* margin-top: -40px; */
   bottom: 45px;
   right: 20px;
 }
